@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -29,7 +29,7 @@ body{
   height: 60px;
   width: 100%;
   max-width: 1600px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.15);
   display: flex;
   padding: 0 20px;
   align-items: center;
@@ -64,3 +64,157 @@ body{
   border-right: 1px solid #5b5b5b;
   padding-right: 10px;
 }
+
+.cardSection{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cardSection .card{
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.15);
+  width: 320px;
+  height: 370px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cardSection .card .uper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardSection .card .uper .imgCircle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardSection .card .uper .imgCircle img{
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.cardSection .card .uper .fvrtJob{
+  padding: 6px 8px;
+  height: max-content;
+  background-color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cardSection .card .uper .fvrtJob:hover{
+  transform: scale(1.1);
+}
+
+.cardSection .card .uper .fvrtJob p{
+  color: white;
+  font-size: 12px;
+}
+
+.cardSection .card .middle{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardSection .card .middle .company{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cardSection .card .middle .company p{
+  font-weight: 700;
+  color: #202020;
+  font-size: 18px;
+}
+
+.cardSection .card .middle .company span{
+  font-size: 12px;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.cardSection .card .middle .jobTitle{
+  font-size: 22px;
+  font-weight: 700;
+  color: #202020;
+}
+
+.cardSection .card .middle .attributes{
+  display: flex;
+  gap: 8px;
+  
+}
+
+.cardSection .card .middle .attributes span{
+  background-color: #f0f0f0;
+  color: #202020;
+  font-size: 12px;
+  padding: 8px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.cardSection .card .lower{
+  margin-top: auto;
+  width: 100%;
+  padding-top: 30px;
+  border-top: 2px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardSection .card .lower .priceL{
+  display: flex;
+  flex-direction: column;
+}
+
+.cardSection .card .lower .priceL h3{
+  font-weight: 700;
+  color: #202020;
+  font-size: 22px;
+}
+
+.cardSection .card .lower .priceL p{
+  font-size: 12px;
+  font-weight: 600;
+  color: #b4b4b4;
+}
+
+.cardSection .card .lower .apply button{
+  padding: 10px 15px;
+  border: none;
+  background-color: #202020;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.cardSection .card .lower .apply button:hover{
+  transform: scale(1.1);
+}
+
+
