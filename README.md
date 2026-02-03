@@ -1,4 +1,4 @@
-# Job Cards Project
+# Job Cards React Project
 
 This project is built to practice **React components** and **props** by creating reusable **Job Card components** that dynamically display job-related information.
 
