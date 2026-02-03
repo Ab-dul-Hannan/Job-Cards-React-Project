@@ -1,16 +1,61 @@
-# React + Vite
+# Job Cards Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built to practice **React components** and **props** by creating reusable **Job Card components** that dynamically display job-related information.
 
-Currently, two official plugins are available:
+The goal of this project is to understand how data flows through components using props while keeping the UI clean, reusable, and scalable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Reusable **Job Card** component
+- Dynamic rendering of job details using **props**
+- Clean and minimal UI
+- Integration of **Lucide React Icons** for better visual presentation
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS
+- Lucide React Icons
+
+---
+
+## 📦 Installation & Setup
+
+Follow the steps below to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+````
+
+### 2. Navigate into the folder
+
+```bash
+cd job-cards-project
+```
+
+### 3. Install Node modules
+
+```bash
+npm install
+```
+
+### 4. Install Lucide React Icons
+
+```bash
+npm install lucide-react
+```
+
+```
+
+✅ This version fixes the broken code blocks and will look professional on GitHub.  
+
+If you want, I can also **merge all installation steps into one code block** to make it even cleaner and shorter.  
+
+Do you want me to do that?
+```
