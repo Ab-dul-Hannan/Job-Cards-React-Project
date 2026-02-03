@@ -51,11 +51,4 @@ npm install
 npm install lucide-react
 ```
 
-```
 
-✅ This version fixes the broken code blocks and will look professional on GitHub.  
-
-If you want, I can also **merge all installation steps into one code block** to make it even cleaner and shorter.  
-
-Do you want me to do that?
-```
