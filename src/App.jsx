@@ -11,8 +11,8 @@ const App = () => {
       <Nav {...NavARR} />
 
       <div className="cardSection">
-        {CardContent.map((job, index) => (
-          <Card key={index} {...job} />
+        {CardContent.map((job) => (
+          <Card {...job} />
         ))}
       </div>
     </>
