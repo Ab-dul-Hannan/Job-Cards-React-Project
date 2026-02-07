@@ -30,13 +30,13 @@ Follow the steps below to run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 ````
 
 ### 2. Navigate into the folder
 
 ```bash
-cd job-cards-project
+cd Job-Cards-React-Project
 ```
 
 ### 3. Install Node modules
