@@ -3,7 +3,7 @@ import React from 'react'
 const NavARR = {
     logo: 'Job Postings',
     linkedIn: 'https://www.linkedin.com/in/abdul-hannan-929a762b8/',
-    gitHub: 'https://github.com/Ab-dul-Hannan',
+    gitHub: '#',
   }
 
   const CardContent = [
